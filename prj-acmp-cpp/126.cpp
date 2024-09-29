@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 int main() {
   int n = 0;
@@ -11,8 +12,22 @@ int main() {
     }
   }
 
+  int result = 10000;
+
+  for (int i = 0; i < n; ++i) {
+    for (int j = 0; j < n; ++j) {
+      for (int k = 0; k < n; ++k) {
+        if (matrix[i][j] && matrix[j][k] && matrix[k][i]) {
+          result = std::min(result, (matrix[i][j] + matrix[j][k] + matrix[k][i]));
+        }
+      }
+    }
+  }
+
+  std::cout << result;
   return 0;
 }
+
 
 //5
 // 0    20   10     30   40
