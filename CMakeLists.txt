@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 
-project(misis2024s-23-03-serdeshnov-v-s)
+project(misis-2024f-combinatorics-and-graphs)
 
 set(CMAKE_CXX_STANDARD 20)
 
