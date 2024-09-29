@@ -5,3 +5,8 @@
 ### Решение задач предоставлено на языке C++
 - Чтобы увидеть решение задач с сайта [ACMP](https://acmp.ru/), перейдите в [папку проекта "prj-acmp-cpp"](https://github.com/serdeshnow/misis-2024f-combinatorics-and-graphs/tree/main/prj-acmp-cpp)
   - название файла - соответствующий номер задачи на сайте
+
+
+- Данные личного аккаунта [ACMP](https://acmp.ru/):
+  - username: serdeshnow
+  - url: https://acmp.ru/index.asp?main=user&id=505547
