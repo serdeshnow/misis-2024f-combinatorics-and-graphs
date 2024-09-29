@@ -32,3 +32,4 @@
 
 .idea/
 cmake-build-debug/
+.temp
